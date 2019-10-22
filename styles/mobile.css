@@ -1,0 +1,55 @@
+@media screen and (max-width: 500px){
+    .welcome-text {
+        font-size: 14px;
+        top: 29%;
+        width: 100%;
+    }
+
+    #part2 > h1 {
+        width: 40%;
+        font-size: 2em;
+    }
+
+    #slide {
+        display: block;
+    }
+
+    #slideshow {
+    margin-left: 0;
+    max-width: 100%;
+    }
+
+    #slideText {
+        width: 90%;
+    }
+
+    .dropdown:hover .dropdown-content {
+        z-index: 3;
+    }
+
+    #form input.formBtn{
+        width: 25%;
+    }
+
+    .section-title {
+        font-size: 2em;
+    }
+
+    #vision > img, #mission > img {
+        max-width: -webkit-fill-available;
+        float: none;
+        margin-right: 0;
+    }
+
+    .text {
+        max-width: 100%;
+    }
+
+    #products {
+        max-width: 100%;
+    }
+
+    #vision > h1, #mission > h1 {
+        width: 100%;
+      }
+} 

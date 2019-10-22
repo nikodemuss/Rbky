@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/home.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/mobile.css'>
+
+    <script src='home.js'></script>
+    <script src='jquery-3.4.1.min.js'></script>
+</head>
+
+<body>
+    <header>
+        <img src="assets/Logo.png">
+        <div id="header-atas">
+
+            <h1>rbky</h1>
+            <h2>est. 2018</h2>
+        </div>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="index.html" class="dropbtn">home</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">products</a>
+                    <div class="dropdown-content">
+                        <a href="hotproduct.html">hot products</a>
+                        <a href="newproducts.html">new products</a>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a href="order.html" class="dropbtn">order</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="aboutus.html" class="dropbtn">about us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div id="content">
+        <div id="welcome">
+
+        </div>
+        <div class="welcome-text">
+            <h1>H O M E</h1>
+        </div>
+
+        <div id="part2">
+            <h1>Our News</h1>
+
+            <div id="slide">
+                <div id="slideshow">
+                    <div class="slides">
+                        <img src="assets/2019-06-Sweet-Treats-webpost.jpg" onload="currentSlide(1)">
+                    </div>
+
+                    <div class="slides">
+                        <img src="assets/2019-05-Smoothie-Monday-web-post.jpg">
+                    </div>
+
+                    <div class="slides">
+                        <img src="assets/Main-Banner-Hotline-compressor.jpg">
+                    </div>
+
+                    <a class="prevSlide" onclick="nextSlide(-1)">&#10094;</a>
+                    <a class="nextSlide" onclick="nextSlide(1)">&#10095;</a>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="dot(1)"></span>
+                        <span class="dot" onclick="dot(2)"></span>
+                        <span class="dot" onclick="dot(3)"></span>
+                    </div>
+                </div>
+
+                <div id="slideText" style="color: white">
+                    <div class="slide1">
+                        <p>
+                                A Tropical Escape!
+                                $2 Mango Coconut Pearl (M)
+                                <br>
+                                6/1/2019 – 6/30/2019
+                                <br>
+                                This is an rbky App exclusive offer. For more information about our app and rewards please go to the Sweet Rewards page.
+                                 <br>
+                                *$2 medium Mango Coconut Pearl with Sweet Rewards coupon, available only on rbky APP. No upgrades or exchanges. No reward point is required to exchange for this coupon. Valid from 6/1/2019 to 6/30/2019; must be redeemed in-store before 11:59 PM PST on date of expiry. While supplies last. Cannot be combined with any other offers or discounts.
+                        </p>
+                    </div>
+                    <div class="slide1">
+                        <p>
+                                Smoothie Monday!<br>
+                                5/1/2019 – 9/30/2019<br>
+                                This summer, Coffee Monday is switching to Smoothie Monday! Every Monday starting 5/6/2019, all Slush & Smoothie beverages are BUY 1 GET 1 FREE!<br>
+                                *Buy one slush or smoothie and get the second same drink for free. Valid for a limited time, only on Mondays from 5/1/2019 – 9/30/2019. Limit 1 order per customer.Cannot be combined with any other discounts or offers. Participation may vary by location. Please see website for details. While supplies last.
+                        </p>
+                    </div>
+                    <div class="slide1">
+                        <p> OUR STORES<br>
+                                We strive to always bring convenience to you. Our continuously-growing outlets are located at all over Indonesia, where you can indulge yourself or with loved ones within a luxurious environment and warm, inviting ambiance that will make you feel right at home
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <center>
+            <p id="footer">
+                Copyright © 2019 rbky
+            </p>
+        </center>
+    </footer>
+
+
+</body>
+
+</html>
