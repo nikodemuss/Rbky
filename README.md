@@ -10,7 +10,7 @@ Front-end web design created with HTML, CSS and JS
 git clone https://github.com/nikodemussk/Rbky.git
 ```
 
-2. Edit file with your favorite text editor
+2. Edit the file with your favorite text editor
 
 ## List of Pages
 - Home
